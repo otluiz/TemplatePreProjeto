@@ -1,0 +1,32 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem[Koedinger et al. 2015]{KoedingerKennethR.2015Dmae}
+\abntrefinfo{Koedinger et al.}{KOEDINGER et al.}{2015}
+{KOEDINGER, K.~R. et al. Data mining and education.
+\emph{Wiley Interdisciplinary Reviews: Cognitive Science}, John Wiley \& Sons,
+  Inc., Hoboken, USA, v.~6, n.~4, p. 333--353, July 2015.
+ISSN 1939-5078.}
+
+\bibitem[Nascimento e Felipe 2016]{alunosEstado.2016}
+\abntrefinfo{Nascimento e Felipe}{NASCIMENTO; FELIPE}{2016}
+{NASCIMENTO, A.; FELIPE, M. \emph{Quize mil alunos migram para a rede estadual
+  por ano}.
+Secretaria de Educação, PE, 2016. Dispon{\'\i}vel em:
+  \url{http://www.diariodepernambuco.com.br/app/noticia/vida-urbana/2016/02/22/interna\_vidaurbana,628241/quinze-mil-alunos-migram-para-a-rede-estadual-por-ano.shtml}.
+  Acesso em: 14 nov. 2017.}
+
+\bibitem[Oliveira, Rodrigues e Garcia 2012]{Oliveira2012}
+\abntrefinfo{Oliveira, Rodrigues e Garcia}{OLIVEIRA; RODRIGUES; GARCIA}{2012}
+{OLIVEIRA, A. M. C. d.~A.; RODRIGUES, R.~L.; GARCIA, V.~C. {Um Mapeamento
+  Sistem{\'{a}}tico para Problem Based Learning aplicado {\`{a}} Ci{\^{e}}ncia
+  da Computa{\c{c}}{\~{a}}o}.
+\emph{Anais do Workshop de Inform{\'{a}}tica na Escola}, v.~1, n.~1, 2012.
+ISSN 2316-6541.
+Dispon{\'\i}vel em:
+  \url{http://www.br-ie.org/pub/index.php/wie/article/view/2127{\\%}5Cnhttp://www.br-ie.org/pub/index.php/wie/article/download/2127/1}.}
+\end{thebibliography}

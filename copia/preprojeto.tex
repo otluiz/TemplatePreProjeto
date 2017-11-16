@@ -52,6 +52,7 @@
 % Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
 % ---
 \usepackage{lipsum}				% para geração de dummy text
+%\usepackage[num]{abntex2cite}
 % ---
 
 % ---
@@ -84,19 +85,18 @@
 % ---
 % Informações de dados para CAPA e FOLHA DE ROSTO
 % ---
-\titulo{Título da Pesquisa e/ou Trabalho}
-\autor{Aluno do Curso de Ciências da Computação}
-\local{Jataí-GO}
-\data{2016}
-\tipotrabalho{Projeto de Pesquisa (Graduação)}
+\titulo{Patterns recognition and strategies for intervention in meaningful student learning, through EDM techniques and LA approaches}
+\autor{Othon Luiz Teixeira de Oliveira}
+\local{Recife -- PE}
+\data{2017}
+\tipotrabalho{Projeto de Pesquisa (Doutorado)}
 % O preambulo deve conter o tipo do trabalho, o objetivo, 
 % o nome da instituição e a área de concentração 
-\preambulo{Projeto de Pesquisa apresentado ao curso de Bacharelado em Ciências da Computação, como requisito para obtenção do grau final na disciplina de Projeto Final de Curso 1. }
+\preambulo{Pré-Projeto de Pesquisa apresentado ao programa de Pós-Graduação em Ciências da Computação da Universidade Federal de Pernambuco, como pré-requisito para seleção do programa de doutorado.}
 
-\orientador {Prof. Dr. Orientador do Aluno}
+\orientador {Prof. Dr. Alex Sandro Gomes}
 
-\instituicao{
-  Universidade Federal de Goiás - Regional Jataí}
+\instituicao{Universidade Federal de Pernambuco - UFPE}
 
 
 % ---
@@ -197,20 +197,34 @@
 % inserir lista de abreviaturas e siglas
 % ---
 \begin{siglas}
-  \item[ABNT] Associação Brasileira de Normas Técnicas
-  \item[abnTeX] ABsurdas Normas para TeX
+  \item[AVA:] Ambiente Virtual De Aprendizagem
+  \item[BD:] Banco De Dados
+  \item[CSV:] Comma-Separated Values
+  \item[CRISP-DM:] Cross Industry Standard Process for Data Mining
+  \item[DM:] Data Mining
+  \item[EDM:] Educational Data Mining
+  \item[EAD:] Educação à Distância
+  \item[ETL:] Extract Transform Load
+  \item[IA:] Inteligência Artificial
+  \item[LA:] Learning Analytics
+  \item[LMS:] Learning Management Systems
+  \item[LASSI:] Learning and Study Strategies Inventory
+  \item[MD:] Mineração de Dados
+  \item[MOODLE:] Modular Object-Oriented Dynamic Learning Environment
+  \item[MSLQ:] Motivated Strategies for Learning Questionnaire
+  \item[SRL:] Self-Regulated Learning
 \end{siglas}
 % ---
 
 % ---
 % inserir lista de símbolos
 % ---
-\begin{simbolos}
-  \item[$ \Gamma $] Letra grega Gama
-  \item[$ \Lambda $] Lambda
-  \item[$ \zeta $] Letra grega minúscula zeta
-  \item[$ \in $] Pertence
-\end{simbolos}
+%\begin{simbolos}
+%  \item[$ \Gamma $] Letra grega Gama
+%  \item[$ \Lambda $] Lambda
+%  \item[$ \zeta $] Letra grega minúscula zeta
+%  \item[$ \in $] Pertence
+%\end{simbolos}
 % ---
 
 % ---
@@ -233,14 +247,17 @@
 \chapter*[Introdução]{Introdução}
 \addcontentsline{toc}{chapter}{Introdução}
 
-Um Projeto de Pesquisa é o planejamento de todas as etapas da pesquisa que se pretende realizar. Um projeto de pesquisa bem elaborado desempenha várias funções, tais como: definir e planejar o caminho a ser seguido no trabalho de pesquisa; atender as exigências das instituições de ensino e de fomento, tendo em vista a discussão/exposição/aprovação de propostas de desenvolvimento científico; permitir aos orientadores discutirem todas as etapas com o orientando, avaliando possibilidades, perspectivas e eventuais desvios; condicionar a discussão e a avaliação do projeto elaborado mediante o exame da banca examinadora (em cursos de graduação, pós-graduação, mestrado e doutorado); serve de base para solicitar bolsas de estudos e/ou financiamentos para o desenvolvimento da pesquisa junto a órgãos públicos ou privados.  
-Este documento e seu código-fonte são exemplos de referência de uso da classe
-\textsf{abntex2} e do pacote \textsf{abntex2cite}. O documento 
-exemplifica a elaboração de projetos de pesquisa produzidos
-conforme a ABNT NBR 15287:2011 \emph{Informação e documentação - Projeto de
-pesquisa - Apresentação}. 
+Os dipositivos eletrônicos do século XXI produzem grandes volumes de dados eletrônicos tais como textos, fotos, audios e vídeos. Os utilizadores desses aparelhos são na grande maioria, jovens em faixa etária estudantil.
+Por outro lado a educação é por tradicão produtora de dados textuais. Estudantes e professores através desses dispositivos elevaram em ordem exponencial a produção de dados textos gerando um grande volume de informações.
+Analisar esse volume de dados, explorando a forma o conteúdo e o contexto do ambiente educacional fez emergir uma nova área na investigação científica a Mineração de dados  Educacionais (Education Data Mining – EDM) \cite{KoedingerKennethR.2015Dmae}.
+  
+% Este documento e seu código-fonte são exemplos de referência de uso da classe
+% \textsf{abntex2} e do pacote \textsf{abntex2cite}. O documento 
+% exemplifica a elaboração de projetos de pesquisa produzidos
+% conforme a ABNT NBR 15287:2011 \emph{Informação e documentação - Projeto de
+% pesquisa - Apresentação}. 
 
-A INTRODUÇÃO é apresentada em forma de um texto “corrido”, ou seja, de uma única redação em que deverão ser apresentados os elementos: tema (objeto de estudo, problema e área/sub-área); objetivos (geral e específicos) e justificativas.
+% A INTRODUÇÃO é apresentada em forma de um texto “corrido”, ou seja, de uma única redação em que deverão ser apresentados os elementos: % % tema (objeto de estudo, problema e área/sub-área); objetivos (geral e específicos) e justificativas.
 
 Contextualiza-se o tema segundo o Marco Teórico/Estado da Arte que sustentará o desenvolvimento da pesquisa. Há que se esclarecer os limites para o seu desenvolvimento, a JUSTIFICATIVA da investigação por meio de uma REVISÃO BIBLIOGRÁFICA, em que se faz referência a estudos e pesquisas já realizados sobre o assunto em questão. O TEMA da pesquisa define o objeto de estudo a ser tratado. Pode equivaler ou não ao título do projeto ou da pesquisa. Deve ter um significado preciso. Já o PROBLEMA deve ser ainda mais específico e detalhado que o objeto de estudo. O problema também deve ser pautado em um levantamento bibliográfico. O problema, formulado como pergunta, deve ser associado ao marco teórico da investigação a ser feita e as demandas institucionais e sociais. Além disso, deve ser completo, ou seja, conter as variáveis necessárias e esclarecedoras da investigação. 
 A revisão bibliográfica, para justificar a pesquisa, pode ser feita, optando-se por um dos seguintes argumentos:
@@ -264,7 +281,7 @@ Para enriquecer a seção de Objetivos (geral e específicos) é salutar apresen
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[scale=0.70]{metodo.png}
+    \includegraphics[scale=0.70]{Imagens/metodo.png}
     \caption{Fases de uma pesquisa}
     \label{metodo_cient}
 \end{figure}
@@ -423,7 +440,11 @@ Avalição e Testes                    & Fevereiro          & 2017      \\
 % ----------------------------------------------------------
 % Referências bibliográficas
 % ----------------------------------------------------------
-\bibliography{abntex2-modelo-references}
+%\bibliographystyle{Bibliografia/Referencias.bib}
+%\bibliography{abntex2-modelo-references}
+
+\bibliography{Bibliografia/Referencias} % um arquivo (Bibliografia/Referencias.bib) está com as referências bibliográficas
+
 
 % ----------------------------------------------------------
 % Glossário

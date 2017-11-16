@@ -1,0 +1,68 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: preprojeto.aux
+A level-1 auxiliary file: abntex2-modelo-include-comandos.aux
+The style file: abntex2-alf.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Database file #1: abntex2-options.bib
+Database file #2: Bibliografia/Referencias.bib
+Warning--I didn't find a database entry for "abntex2classe"
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://www.abntex.net.br/                               |
++---------------------------------------------------------+
+You've used 5 entries,
+            6714 wiz_defined-function locations,
+            1237 strings with 10539 characters,
+and the built_in function-call counts, 9816 in all, are:
+= -- 1325
+> -- 142
+< -- 307
++ -- 395
+- -- 42
+* -- 598
+:= -- 1225
+add.period$ -- 19
+call.type$ -- 5
+change.case$ -- 49
+chr.to.int$ -- 14
+cite$ -- 4
+duplicate$ -- 1047
+empty$ -- 252
+format.name$ -- 201
+if$ -- 1870
+int.to.chr$ -- 0
+int.to.str$ -- 0
+missing$ -- 78
+newline$ -- 32
+num.names$ -- 20
+pop$ -- 105
+preamble$ -- 1
+purify$ -- 20
+quote$ -- 0
+skip$ -- 1119
+stack$ -- 1
+substring$ -- 443
+swap$ -- 380
+text.length$ -- 10
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 32
+width$ -- 0
+write$ -- 80
+(There was 1 warning)
